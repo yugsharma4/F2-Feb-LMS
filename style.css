@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+.input {
+  margin-left: 2rem;
+}
+.input label {
+  font-size: 15px;
+  font-weight: bold;
+}
+.input input {
+  padding: 5px;
+}
+.input button {
+  padding: 8px;
+  background-color: white;
+  margin-left: 6rem;
+}
+
+.input button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Table part */
+table {
+  width: 100vw;
+  margin-top: 4rem;
+  /* margin-left: 4px; */
+  border-spacing: 0px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+tr td span {
+  margin-left: 14px;
+}
+
+.redColor {
+  color: red;
+}
